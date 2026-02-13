@@ -1,2 +1,5 @@
 # Lab-1
-Lab1 for CMPE310
+## Compile
+gcc -nostdlib -no-pie print_hello.s -o hello
+## Run
+./hello

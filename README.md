@@ -5,22 +5,22 @@ gcc -nostdlib -no-pie print_hello.s -o hello
 ./hello
 
 ## Compile Task1.s
-gcc -no-pie Task1.s print_ram.c -o Task1
+gcc -no-pie task1.s print_ram.c -o Task1
 ## Run Task1
 ./Task1
 
 ## Compile Task2.s
-gcc -no-pie Task2.s print_ram.c -o Task2
+gcc -no-pie task2.s print_ram.c -o Task2
 ## Run Task2
 ./Task2
 
 ## Compile Task3.s
-gcc -no-pie Task3.s print_ram.c -o Task3
+gcc -no-pie task3.s print_ram.c -o Task3
 ## Run Task3
 ./Task3
 
 ## Compile Task4.s
-gcc -no-pie Task4.s print_task4.c -o Task4
+gcc -no-pie task4.s print_task4.c -o Task4
 ## Run Task4
 ./Task4
 
